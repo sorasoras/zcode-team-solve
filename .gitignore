@@ -1,0 +1,11 @@
+# Written by a run; regenerated every time.
+team-solve/plan.md
+team-solve/notes.md
+team-solve/review.md
+team-solve/solution.py
+team-solve/proposals/*.md
+team-solve/*.log
+team-solve/test-status.txt
+
+# Host state
+.zcode/workflow-drafts/

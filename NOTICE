@@ -1,0 +1,19 @@
+zcode-team-solve
+A ZCode port of Memdoor's examples/workflows/team-solve.
+
+This repository is a derivative work of Memdoor
+(https://github.com/guregodevo/memdoor), Copyright 2026 Gregory Desvaux,
+licensed under the Apache License, Version 2.0. A copy of that license is in
+LICENSE.
+
+Specifically derived:
+
+  * .zcode/workflows/team-solve.dwf.ts carries the seven role prompts from
+    Memdoor's examples/workflows/team-solve/steps/, with their wording held and
+    only the file paths, the run identifier and the control flow adapted.
+  * team-solve/check.py reimplements that directory's check-samples.sh in Python,
+    with the same glob, comparison, diff and summary output.
+  * team-solve/task.md and team-solve/tests/ are the sample shipped with it.
+
+The method those prompts implement is described in the paper that Memdoor's
+example cites (GVS5H, Lee, 2026).
